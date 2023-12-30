@@ -1,9 +1,17 @@
+import Content from "./component/Content";
+import Footer from "./component/Footer";
+import NavBar from "./component/NavBar";
+import React from "react";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-row justify-between p-24">
-      <h1 className="text-red-300">Hello</h1>
-      <h1>Hel</h1>
-    </main>
+    <React.Fragment>
+
+        <NavBar />
+        <Content />
+        <Footer/>
+
+    </React.Fragment>
+
   )
 }
