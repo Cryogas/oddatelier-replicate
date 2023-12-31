@@ -1,17 +1,16 @@
-import Content from "./component/Content";
-import Footer from "./component/Footer";
-import NavBar from "./component/NavBar";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
 import React from "react";
 
 export default function Home() {
   return (
-    <React.Fragment>
-
+    <main className="min-h-screen">
         <NavBar />
         <Content />
         <Footer/>
 
-    </React.Fragment>
+    </main>
 
   )
 }
