@@ -6,6 +6,8 @@ import React from "react";
 export default function Home() {
   return (
     <main className="min-h-screen">
+        <title>ODDATELIER - oddatelier</title>
+        
         <NavBar />
         <Content />
         <Footer/>
