@@ -16,10 +16,10 @@ const Content = () => {
         alt='logo'
         height={100}
         width={200}
-        className='block ml-auto mr-auto my-[2.1rem]'
+        className='block mx-auto my-[2.1rem]'
     />
 
-    <p className='font-sweetsanspro border text-[12px] px-16 border-green-300 text-center py-[1.8rem]' >
+    <p className='animate-fade-up font-sweetsanspro border text-[12px] px-16 border-green-300 text-center py-[1.8rem]' >
       {line1}
       <span className='block'>{line2} </span>
       <span className='block'>{line3} </span>

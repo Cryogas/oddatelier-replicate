@@ -6,10 +6,9 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    fontFamily:{
-      sweetsanspro: ["sweetsanspro", "sans-serif"]
+    fontFamily: {
+      sweetsanspro: ['sweetsanspro', 'sans-serif'],
     },
-
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -18,5 +17,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    require('tailwindcss-animated')
+  ],
+};
