@@ -5,7 +5,7 @@ const NavBar = () => {
 
 
   return (
-    <React.Fragment>
+    <>
       <main className="flex flex-row justify-between pb-10 sticky top-0 border border-purple-500">
         <a href='' className="text-red-300 ml-4 h-20 w-20 text-center">
           <Image 
@@ -33,7 +33,7 @@ const NavBar = () => {
         </div>
       </main>
     
-    </React.Fragment>
+    </>
   )
 }
 

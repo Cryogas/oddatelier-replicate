@@ -6,9 +6,11 @@ import React from "react";
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <div>
         <NavBar />
         <Content />
         <Footer/>
+      </div>
 
     </main>
 
